@@ -359,13 +359,14 @@ $mass_edit_height: 44px;
 		display: flex;
 		flex-flow: row wrap;
 		align-items: stretch;
+		justify-content: space-between;
 	}
 
 	.movie {
 		margin-bottom: $padding;
 		position: relative;
 		cursor: pointer;
-		flex: 0 1 auto;
+		flex: 0 auto;
 		width: 150px;
 		max-width: 16.666666667%;
 		border: 0 solid transparent;
